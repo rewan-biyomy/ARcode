@@ -1,7 +1,7 @@
 import Hero from '../components/Hero'
 import StatsBar from '../components/StatsBar'
 // import Services from '../components/Services'
-import Portfolio from '../components/Portfolio'
+import HomePortfolio from '../components/HomePortfolio'
 import { Link } from 'react-router-dom'
 import { Container } from 'react-bootstrap'
 
@@ -11,9 +11,9 @@ function Home() {
       <Hero />
       <StatsBar />
       {/* <Services /> */}
-      <Portfolio />
+      <HomePortfolio />
       
-      {/* CTA انتقالي */}
+      {/* CTA */}
       <section style={{ 
         background: 'linear-gradient(135deg, var(--primary-color) 0%, var(--primary-dark) 100%)',
         padding: '80px 0',

@@ -3,7 +3,7 @@ import { useEffect } from 'react'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import BackToTop from './components/BackToTop'
-import WhatsAppButton from './components/WhatsAppButton'
+import FloatingButtons from './components/FloatingButtons'
 import Home from './pages/Home'
 import AboutPage from './pages/AboutPage'
 import ServicesPage from './pages/ServicesPage'
@@ -36,7 +36,7 @@ function App() {
       </main>
       <Footer />
       <BackToTop />
-      <WhatsAppButton />
+      <FloatingButtons />
     </div>
   )
 }

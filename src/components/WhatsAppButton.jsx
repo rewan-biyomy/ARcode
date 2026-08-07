@@ -1,6 +1,6 @@
 function WhatsAppButton() {
   // غير الرقم هنا برقمك (مع كود الدولة بدون +)
-  const phoneNumber = '201234567890'
+  const phoneNumber = '01146956284'
   const message = 'مرحباً، أود التواصل معكم بخصوص خدماتكم'
 
   return (
