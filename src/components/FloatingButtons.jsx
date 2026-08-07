@@ -15,11 +15,11 @@ function FloatingButtons() {
     return () => document.removeEventListener('mousedown', handleClickOutside)
   }, [])
 
-  const messengerUsername = 'YOUR_PAGE_USERNAME' // غيره بـ username صفحة الفيسبوك
+  const messengerUsername = 'https://www.facebook.com/share/1CvPDC2D54/' // غيره بـ username صفحة الفيسبوك
 
   const whatsappNumbers = [
-    { number: '01146956284', label: 'الفتره الصباحيه' },
-    { number: '01553318722', label: 'الفتره المسائيه' }
+    { number: '+201146956284', label: 'الفتره الصباحيه' },
+    { number: '+201553318722', label: 'الفتره المسائيه' }
   ]
 
   return (
@@ -56,7 +56,7 @@ function FloatingButtons() {
 
       {/* ماسنجر */}
       <a
-        href={`https://m.me/${messengerUsername}`}
+        href={"https://www.facebook.com/share/1CvPDC2D54/"}
         target="_blank"
         rel="noopener noreferrer"
         className="float-btn messenger-btn"
