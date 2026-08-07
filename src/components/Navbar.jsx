@@ -70,9 +70,9 @@ function NavigationBar() {
               fontSize: '1rem'
             }}
           >
-            ك
+            AR
           </div>
-          <span className="brand-text">كود<span>سبيس</span></span>
+          <span className="brand-text">AR<span>Code</span></span>
         </Navbar.Brand>
         
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
