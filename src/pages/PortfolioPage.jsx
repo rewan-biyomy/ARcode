@@ -13,7 +13,7 @@ function PortfolioPage() {
   return (
     <>
       {/* Hero */}
-      <div className="page-header">
+      {/* <div className="page-header">
         <Container>
           <span className="text-uppercase small fw-bold opacity-75" style={{ letterSpacing: 2 }}>
             أعمالنا
@@ -26,7 +26,7 @@ function PortfolioPage() {
             نفخر بمشاريعنا التي ساهمت في نجاح شركائنا ونمو أعمالهم
           </p>
         </Container>
-      </div>
+      </div> */}
 
       {/* Main Content: Sidebar + Grid */}
       <section className="section-padding" style={{ background: '#F8FAFC' }}>

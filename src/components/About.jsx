@@ -9,10 +9,9 @@ function About() {
   ]
 
   const team = [
-    { name: 'أحمد محمد', role: 'CEO & Founder', img: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop&crop=face' },
-    { name: 'سارة أحمد', role: 'UI/UX Designer', img: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=300&h=300&fit=crop&crop=face' },
-    { name: 'محمد علي', role: 'Lead Developer', img: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300&h=300&fit=crop&crop=face' },
-    { name: 'نورا خالد', role: 'Project Manager', img: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=300&h=300&fit=crop&crop=face' },
+    { name: 'أحمد ', role: 'Software Engineer', img: '/img/ahmed.png' },
+    { name: ' روان', role: 'Full Stack Developer', img: '/img/rewan.png' },
+  
   ]
 
   return (
@@ -34,10 +33,10 @@ function About() {
                     bottom: '-20px', 
                     left: '20px', 
                     background: 'var(--primary-color)',
-                    minWidth: 150
+                    minWidth: 10
                   }}
                 >
-                  <div className="stat-number text-white" style={{ fontSize: '2rem' }}>5+</div>
+                  <div className="stat-number text-white" style={{ fontSize: '2rem' }}>3+</div>
                   <div className="small">سنوات من الخبرة</div>
                 </div>
               </div>
@@ -46,22 +45,22 @@ function About() {
               <span className="text-uppercase small fw-bold" style={{ color: 'var(--primary-color)', letterSpacing: 2 }}>من نحن</span>
               <h2 className="section-title mt-2">نحن نبني الحلول<br />التقنية المستقبلية</h2>
               <p className="text-muted mb-4">
-                تأسست شركتنا عام 2019 بهدف تقديم حلول برمجية مبتكرة للشركات الناشئة والمؤسسات الكبرى. نؤمن بأن التكنولوجيا هي مفتاح النجاح في العصر الرقمي.
+                تأسست شركتنا عام 2026 بهدف تقديم حلول برمجية مبتكرة للشركات الناشئة والمؤسسات الكبرى. نؤمن بأن التكنولوجيا هي مفتاح النجاح في العصر الرقمي.
               </p>
               <p className="text-muted mb-4">
                 فريقنا يضم نخبة من المطورين والمصممين المحترفين الذين يعملون بشغف لتحويل أفكارك إلى منتجات رقمية استثنائية.
               </p>
               <div className="d-flex gap-3 flex-wrap">
                 <div className="text-center px-3">
-                  <div className="stat-number" style={{ fontSize: '2rem' }}>150+</div>
+                  <div className="stat-number" style={{ fontSize: '2rem' }}>10+</div>
                   <small className="text-muted">مشروع</small>
                 </div>
                 <div className="text-center px-3 border-end">
-                  <div className="stat-number" style={{ fontSize: '2rem' }}>50+</div>
+                  <div className="stat-number" style={{ fontSize: '2rem' }}>3+</div>
                   <small className="text-muted">عميل</small>
                 </div>
                 <div className="text-center px-3 border-end">
-                  <div className="stat-number" style={{ fontSize: '2rem' }}>12</div>
+                  <div className="stat-number" style={{ fontSize: '2rem' }}>2</div>
                   <small className="text-muted">خبير</small>
                 </div>
               </div>

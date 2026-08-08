@@ -13,9 +13,9 @@ function Services() {
       btnColor: '#fff'
     },
     {
-      icon: 'bi-phone',
-      title: 'تطبيقات الموبايل',
-      desc: 'تطبيقات iOS و Android بأداء عالي وتجربة مستخدم سلسة',
+      icon: 'bi-dashboard',
+      title: ' لوحه تحكم ذكيه ',
+      desc: 'تطبيقات iOS و  بأداء عالي وتجربة مستخدم سلسة',
       bg: '#EFF6FF',
       circle: '#60A5FA',
       btnBg: '#60A5FA',

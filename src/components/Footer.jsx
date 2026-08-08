@@ -42,26 +42,14 @@ function Footer() {
           <Col md={4} lg={2} className="mb-4 mb-lg-0">
             <h6 className="fw-bold mb-3">الخدمات</h6>
             <Link to="/services" className="footer-link">تطوير المواقع</Link>
-            <Link to="/services" className="footer-link">تطبيقات الموبايل</Link>
-            <Link to="/services" className="footer-link">UI/UX Design</Link>
-            <Link to="/services" className="footer-link">الاستضافة</Link>
+            <Link to="/services" className="footer-link"> بناء المتاجر</Link>
+            <Link to="/services" className="footer-link">لوحات التحكم</Link>
+            <Link to="/services" className="footer-link">صفحات الهبوط</Link>
+            <Link to="/services" className="footer-link"> الموقع الشخصي</Link>
+        
           </Col>
           
-          <Col md={4} lg={4}>
-            <h6 className="fw-bold mb-3">النشرة البريدية</h6>
-            <p className="opacity-75 small mb-3">اشترك ليصلك أحدث أخبارنا وعروضنا</p>
-            <div className="d-flex gap-2">
-              <input 
-                type="email" 
-                className="form-control-custom flex-grow-1" 
-                placeholder="بريدك الإلكتروني"
-                style={{ background: 'rgba(255,255,255,0.1)', borderColor: 'rgba(255,255,255,0.2)', color: 'white' }}
-              />
-              <button className="btn-primary-custom border-0" style={{ padding: '8px 16px' }}>
-                <i className="bi bi-arrow-left"></i>
-              </button>
-            </div>
-          </Col>
+        
         </Row>
         
         <hr className="my-4 opacity-25" />

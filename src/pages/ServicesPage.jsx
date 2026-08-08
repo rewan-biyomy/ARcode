@@ -9,7 +9,7 @@ function ServicesPage() {
       desc: 'نبني لك متجر احترافي يحقق مبيعات. منصات متكاملة مع بوابات دفع، إدارة مخزون ذكية، وتجربة شراء سلسة.',
       bg: '#FFF1F2',
       circle: '#FB7185',
-      features: ['Shopify', 'WooCommerce', 'Magento', 'دفع إلكتروني']
+      features: []
     },
     {
       icon: 'bi-laptop',
@@ -17,7 +17,7 @@ function ServicesPage() {
       desc: 'مواقع عصرية متجاوبة مع جميع الأجهزة. نركز على السرعة، SEO، وتجربة مستخدم لا تُنسى.',
       bg: '#F0F9FF',
       circle: '#38BDF8',
-      features: ['React', 'Next.js', 'WordPress', 'SEO']
+      features: []
     },
     {
       icon: 'bi-speedometer2',
@@ -25,33 +25,25 @@ function ServicesPage() {
       desc: 'أنظمة إدارة داخلية متقدمة لإدارة أعمالك. تحليلات بيانات، تقارير ذكية، وتحكم كامل.',
       bg: '#FAF5FF',
       circle: '#C084FC',
-      features: ['React', 'Node.js', 'Charts', 'Real-time']
+      features: []
     },
     {
-      icon: 'bi-phone',
-      title: 'تطبيقات الموبايل',
-      desc: 'تطبيقات iOS و Android بجودة عالية. أداء سريع، واجهة سلسة، وتجربة مستخدم ممتازة.',
-      bg: '#EFF6FF',
-      circle: '#60A5FA',
-      features: ['Flutter', 'React Native', 'iOS', 'Android']
+      icon: 'bi-speedometer2',
+      title: ' صفحات هبوط',
+      desc: 'صفحات هبوط جذابة لمشاريعك. تصميم يركز على التحويل، تجربة مستخدم سلسة، وتحقيق أهدافك التسويقية.',
+      bg: '#FAF5FF',
+      circle: '#C084FC',
+      features: []
     },
     {
-      icon: 'bi-palette',
-      title: 'UI/UX Design',
-      desc: 'تصميم واجهات جذابة وتجارب مستخدم استثنائية. نبحث، نصمم، ونختبر لنضمن أفضل النتائج.',
-      bg: '#FFFBEB',
-      circle: '#FBBF24',
-      features: ['Figma', 'Prototyping', 'User Research', 'Testing']
+      icon: 'bi-server',
+      title: '  موقع تعريفى شخصى(protfolio)',
+      desc: 'موقع تعريفى شخصى يعرض أعمالك ومهاراتك. تصميم عصري، سهل التصفح، ويعكس هويتك الرقمية.',
+      bg: '#fcdff6',
+      circle: '#fb8ffb',
+      features: []
     },
-    {
-      icon: 'bi-cloud-arrow-up',
-      title: 'الاستضافة والسحابة',
-      desc: 'استضافة آمنة وموثوقة على أفضل السيرفرات. نضمن uptime 99.9% وأداء متفوق.',
-      bg: '#ECFDF5',
-      circle: '#34D399',
-      features: ['AWS', 'VPS', 'SSL', 'Backup']
-    }
-  ]
+     ]
 
   const process = [
     { step: '01', title: 'الاستكشاف', desc: 'نفهم احتياجاتك وأهدافك بعمق' },
@@ -64,13 +56,17 @@ function ServicesPage() {
 
   const techStack = [
     { name: 'React', icon: 'bi bi-filetype-jsx' },
-    { name: 'Next.js', icon: 'bi bi-lightning-charge' },
+    { name: 'JavaScript', icon: 'bi bi-lightning-charge' },
     { name: 'Node.js', icon: 'bi bi-server' },
-    { name: 'Flutter', icon: 'bi bi-phone' },
-    { name: 'AWS', icon: 'bi bi-cloud' },
-    { name: 'Figma', icon: 'bi bi-palette' },
-    { name: 'PostgreSQL', icon: 'bi bi-database' },
-    { name: 'Docker', icon: 'bi bi-box' }
+    { name: 'Python', icon: 'bi bi-phone' },
+    { name: 'php', icon: 'bi bi-cloud' },
+    { name: 'laravel', icon: 'bi bi-palette' },
+    { name: 'mysql', icon: 'bi bi-database' },
+    { name: 'Django', icon: 'bi bi-box' },
+    { name: 'REST APIs', icon: 'bi bi-box' },
+    { name: 'Tailwind CSS', icon: 'bi bi-box' },
+    { name: ' Firebase', icon: 'bi bi-box' },
+    { name: ' Supabase', icon: 'bi bi-box' }
   ]
 
   return (
