@@ -11,6 +11,7 @@ function About() {
   const team = [
     { name: 'أحمد ', role: 'Software Engineer', img: '/img/ahmed.png' },
     { name: ' روان', role: 'Full Stack Developer', img: '/img/rewan.png' },
+     { name: ' رزان', role: 'Marketing Officer', img: '/img/razan.jpg' },
   
   ]
 
