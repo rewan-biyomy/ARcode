@@ -19,7 +19,7 @@ function FloatingButtons() {
 
   const whatsappNumbers = [
     { number: '+201146956284', label: 'الفتره الصباحيه' },
-    { number: '+201553318722', label: 'الفتره المسائيه' }
+    { number: '+201007158144', label: 'الفتره المسائيه' }
   ]
 
   return (
